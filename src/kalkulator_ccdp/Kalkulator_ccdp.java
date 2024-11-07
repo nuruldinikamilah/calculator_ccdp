@@ -22,7 +22,7 @@ public class Kalkulator_ccdp {
     }
 
     /**
-     * Pengurangan dua bilangan bulat
+     * Pengurangan dua bilangan
      *
      * @param bilangan1 bilangan pertama
      * @param bilangan2 bilangan yang akan dikurangkan dari bilangan pertama
@@ -60,22 +60,19 @@ public class Kalkulator_ccdp {
     /**
     * Metode utama untuk menjalankan program kalkulator sederhana.
     * Meminta pengguna untuk memasukkan dua bilangan dan memilih operasi.
-    * Kemudian, mencetak hasil perhitungan.
+    * Kemudian, menghasilkan hasil perhitungan.
     *
-    * @param args argumen baris perintah (tidak digunakan dalam program ini)
+    * 
     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Ambil input bilangan pertama
         System.out.print("Masukkan bilangan pertama: ");
         int bilangan1 = scanner.nextInt();
         
-        // Ambil input bilangan kedua
         System.out.print("Masukkan bilangan kedua: ");
         int bilangan2 = scanner.nextInt();
         
-        // Ambil input operasi
         System.out.print("Pilih operasi (+, -, *, /): ");
         char operasi = scanner.next().charAt(0);
 
